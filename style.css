@@ -11,11 +11,10 @@
     padding: 50px; 
     height:100vh;  
 }
-
-.intro img {
+#mypic {
     height: 200px;
     margin-top: 100px; 
-    border-radius: 500px;
+    border-radius: 100px;
 }
 
 .name {
@@ -132,9 +131,29 @@
     }
   }
   .card-body{
-    background-color: rgb(253, 232, 196);
+    background-color: rgb(110, 127, 127);
   }
+
+  hr{
+    width: 80%;
+    margin: auto;
+  }
+
+#education {
+  background: url("images/book.jpg");
+  background-size: cover;
   
+}
+
+#course img{
+  padding: 15px ;
+  filter: drop-shadow(3px 3px 3px black);
+}
+
+figure{
+  text-align: center;
+}
+
    
   
   
